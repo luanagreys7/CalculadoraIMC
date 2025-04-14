@@ -1,31 +1,21 @@
 {
-  "name": "@babel/code-frame",
-  "version": "7.26.2",
-  "description": "Generate errors that contain a code frame that point to source locations.",
-  "author": "The Babel Team (https://babel.dev/team)",
-  "homepage": "https://babel.dev/docs/en/next/babel-code-frame",
-  "bugs": "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
+  "name": "calculadoraimc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/babel/babel.git",
-    "directory": "packages/babel-code-frame"
-  },
-  "main": "./lib/index.js",
   "dependencies": {
-    "@babel/helper-validator-identifier": "^7.25.9",
-    "js-tokens": "^4.0.0",
-    "picocolors": "^1.0.0"
+    "expo": "~52.0.43",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.9"
   },
   "devDependencies": {
-    "import-meta-resolve": "^4.1.0",
-    "strip-ansi": "^4.0.0"
+    "@babel/core": "^7.20.0"
   },
-  "engines": {
-    "node": ">=6.9.0"
-  },
-  "type": "commonjs"
+  "private": true
 }
